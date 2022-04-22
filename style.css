@@ -1,0 +1,30 @@
+p {
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.g {
+    background-color: green;
+}
+.r {
+    background-color: red;
+}
+.b {
+    background-color: blue;
+}
+.y {
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    font-size: 1.5em;
+    line-height: 1;
+    vertical-align: middle;
+}
