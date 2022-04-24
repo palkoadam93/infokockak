@@ -1,4 +1,4 @@
-p {
+main p {
     display: inline-block;
     height: 200px;
     line-height: 200px;
@@ -6,20 +6,20 @@ p {
     text-align: center;
 }
 
-.g {
+main .g {
     background-color: green;
 }
-.r {
+main .r {
     background-color: red;
 }
-.b {
+main .b {
     background-color: blue;
 }
-.y {
+main .y {
     background-color: orange;
 }
 
-a {
+main a {
     text-decoration: none;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -27,4 +27,17 @@ a {
     font-size: 1.5em;
     line-height: 1;
     vertical-align: middle;
+}
+
+div {
+    font-family: Arial;
+}
+
+div a {
+    color: orange;
+    text-decoration: none;
+}
+div a:hover {
+    background-color: orange;
+    color: white;
 }
